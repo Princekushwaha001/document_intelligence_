@@ -1,0 +1,52 @@
+# ─── Secret / Credentials ─────────────────────────────────────────────────────
+.env
+*.key
+*.pem
+
+# ─── Python Cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual Environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Data / Uploads (personal documents) ─────────────────────────────────────
+data/
+
+# ─── Vector Store / Chroma DB (auto-generated at runtime) ────────────────────
+chroma_db/
+vectorstore/
+faiss_index/
+*.index
+
+# ─── Distribution / Build ─────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Testing & Coverage ───────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── IDE & Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS Generated ─────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
