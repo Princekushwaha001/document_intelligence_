@@ -1,3 +1,21 @@
+
+"""
+config.py
+---------
+Centralised configuration module for the Document Intelligence API.
+
+Responsibility:
+    Load environment variables from the .env file and expose them
+    as typed constants to the rest of the application.
+
+Usage:
+    from app.config import GROQ_API_KEY
+
+Note:
+    Never hardcode secrets. All sensitive values must live in the .env file.
+    The .env file must never be committed to version control.
+"""
+
 import os
 from dotenv import load_dotenv
 
